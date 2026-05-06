@@ -1,0 +1,21 @@
+# Environment
+.env
+
+# Build output
+target/
+
+# IDE
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
