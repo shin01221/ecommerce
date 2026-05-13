@@ -3,8 +3,6 @@ package com.ecommerce.controller;
 import com.ecommerce.model.User;
 import com.ecommerce.service.UserService;
 import com.ecommerce.util.JwtUtil;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,7 +12,6 @@ import java.util.Optional;
 
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
-    private static final Logger logger = LoggerFactory.getLogger(LoginServlet.class);
     private final UserService userService = new UserService();
 
     @Override
